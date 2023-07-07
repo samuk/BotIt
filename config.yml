@@ -2,32 +2,16 @@ reddit:
   baseUrl: https://old.reddit.com
 
 lemmy:
-  baseUrl: https://lemmy.world
+  baseUrl: https://slrpnk.net/
 
 communityMap:
-  - subreddit: mma
+  - subreddit: solarpunk
     postFilter:
-      postLimit: 50
-      minUpvotes: 200
-      maxDownvotes: 100
+      postLimit: 12
+      minUpvotes: 10
+      maxDownvotes: 1
       minUpvoteRatio: 0.70
       maxTimeHours: 10
-    community: mma@kbin.social
+    community: solarpunk@slrpnk.net
 
-  - subreddit: worldnews
-    postFilter:
-      postLimit: 75
-      minUpvotes: 800
-      maxDownvotes: 300
-      minUpvoteRatio: 0.75
-      maxTimeHours: 6
-    community: world@lemmy.world
-    
-  - subreddit: worldnews
-    postFilter:
-      postLimit: 75
-      minUpvotes: 800
-      maxDownvotes: 300
-      minUpvoteRatio: 0.75
-      maxTimeHours: 5
-    community: worldnews@lemmy.ml
+  
